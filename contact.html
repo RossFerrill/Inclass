@@ -1,0 +1,81 @@
+<!--Name: Ross Ferrill 
+    Email: rferrill8349@conestogac.on.ca--> 
+    
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Inclass Task 1</title>
+    </head>
+    <body>
+        <header class="structural">
+            <h1>My First webpage.</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="structural">
+            <h2>Contact</h2>
+           <form action="form.html">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autofocus>
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <fieldset>
+                <legend>
+                    <label for="section">What section of PROG1245 are you in?</label>
+                </legend>
+                
+                <label for="section 4"> Section 4</label>
+                <input type="radio" id="4" name="sec" value="4" required>
+                <label for="section 5"> Section 5</label>
+                <input type="radio" id="5" name="sec" value="5" checked>
+                <label for="section 8"> Section 8</label>
+                <input type="radio" id="8" name="sec" value="8">
+            </fieldset>
+            <label for="help">What do you need help with</label>
+            <select id="help" name="help" required>
+                <option value="0" selected> Select an option</option>
+                <option value="HTML">HTML</option>
+                <option value="Css">Css</option>
+                <option value="HTML & CSS">HTML & CSS</option>
+            </select>
+            <br>
+            <label for="Comment">Comments</label>
+            <textarea name="Comment" id="Comment" rows="4" required></textarea>   
+            <label for="human">I am human</label>
+            <input type="checkbox" id="Human" name="Human" value="true" required>
+            <input type="submit" id="submit" name="submit" value="Submit">
+            
+            
+           </form>
+
+        </main>
+        <aside  class="structural">
+            <h2> Helpful links</h2>
+                <ul>
+                    <li><a href="google.com">Google</a></li>
+                    <li><a href="https://www.conestogac.on.ca/">Conestoga College</a></li>
+                </ul>
+        </aside>
+
+
+           
+        </section>
+        
+    </body>
+    <footer class="structural">
+        <p>&copy; Ross Ferrill 2023</p>
+    </footer>
+</html>

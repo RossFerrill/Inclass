@@ -5,6 +5,8 @@
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    color: yellow; 
+    font-size: 10mm
   }
   h2 {
     color: #523;;
@@ -32,24 +34,72 @@ background-color: hsl(20, 95%, 40%);
 }
 main{
     width: 65vw;
-    height: 60vh;
     float: left;
 background-color: hsla(0, 76%, 35%, 0.566);
 }
 aside{
-    height: 60vh;
+   
     width: 25vw;
     float: right;
     background-color: hsla(145, 82%, 36%, 0.566);
+}
+aside ul{
+    list-style-type: square;
+}
+aside ul, a{
+    line-height: 1.5rem;
 }
 footer{
     clear: both;
     background-color: hsla(246, 100%, 64%, 0.771);
 }
-a:hover{
+aside a:hover{
     color: #fc9;
 }
 footer p{
     
     font-size: .75em;
-} 
+}
+nav ul li {
+    display: inline;
+    list-style-type:none;
+}
+nav ul li a{
+    border: 2px;
+    border-style: solid;
+    color: indigo;
+    border-color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 4px;
+}
+nav ul li a:hover{
+    color: cornsilk;
+    border-color: cornsilk;
+    background-color: indigo;
+}
+form{
+    border: 5px dashed darkblue;
+}
+input[type=text], input [type= email] input[type=submit], select option{
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+input[type=radio], input[type = checkbox]{
+    height: 2em;
+    width: 2em;
+}
+select, option, label ,legend{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+textarea{
+    display: block;
+    width: 50%;
+}
+fieldset{
+    border-style: none;
+}
